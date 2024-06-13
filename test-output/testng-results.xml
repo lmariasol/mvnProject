@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-13T23:34:54 IDT" name="Default suite" finished-at="2024-06-13T23:35:04 IDT" duration-ms="10045">
+    <groups>
+    </groups>
+    <test started-at="2024-06-13T23:34:54 IDT" name="Default test" finished-at="2024-06-13T23:35:04 IDT" duration-ms="10045">
+      <class name="tests.LoginTestFailed">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTestFailed@5c10285a]" started-at="2024-06-13T23:34:54 IDT" name="setUp" finished-at="2024-06-13T23:35:01 IDT" duration-ms="7076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc01_Login_Failed()[pri:0, instance:tests.LoginTestFailed@5c10285a]" started-at="2024-06-13T23:35:01 IDT" name="tc01_Login_Failed" description="Case: locked out user" finished-at="2024-06-13T23:35:02 IDT" duration-ms="1052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_Login_Failed -->
+        <test-method signature="tc02_Login_Failed(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTestFailed@5c10285a]" started-at="2024-06-13T23:35:02 IDT" name="tc02_Login_Failed" description="use incorrect credentials" data-provider="getData" finished-at="2024-06-13T23:35:03 IDT" duration-ms="433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_Login_Failed -->
+        <test-method signature="tc02_Login_Failed(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTestFailed@5c10285a]" started-at="2024-06-13T23:35:03 IDT" name="tc02_Login_Failed" description="use incorrect credentials" data-provider="getData" finished-at="2024-06-13T23:35:03 IDT" duration-ms="365" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_Login_Failed -->
+        <test-method signature="tc02_Login_Failed(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTestFailed@5c10285a]" started-at="2024-06-13T23:35:03 IDT" name="tc02_Login_Failed" description="use incorrect credentials" data-provider="getData" finished-at="2024-06-13T23:35:04 IDT" duration-ms="328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_Login_Failed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTestFailed@5c10285a]" started-at="2024-06-13T23:35:04 IDT" name="tearDown" finished-at="2024-06-13T23:35:04 IDT" duration-ms="487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTestFailed -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
