@@ -1,0 +1,14 @@
+url=https://www.saucedemo.com
+
+user1=standard_user
+password1=secret_sauce
+
+user2=locked_out_user
+password2=secret_sauce
+
+user3=visual_user
+password3=secret_sauce
+
+CheckoutPage_firstName=Maria
+CheckoutPage_lastName=Test
+CheckoutPage_zipCode=123456
